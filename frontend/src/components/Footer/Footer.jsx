@@ -35,10 +35,7 @@ const quick_links2 = [
 ];
 
 const Footer = () => {
-
-
-const year = new Date().getFullYear();
-
+  const year = new Date().getFullYear();
 
   return (
     <footer className='footer'>
@@ -130,7 +127,7 @@ const year = new Date().getFullYear();
             </ListGroup>
           </Col>
           <Col lg='12' className='text-center pt-5'>
-            <p className="copyright">
+            <p className='copyright'>
               Copyright &copy; {year}. All Rights Reserved
             </p>
           </Col>
